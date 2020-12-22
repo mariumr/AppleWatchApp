@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE04545F25718A730043FE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE04545E25718A730043FE05 /* AppDelegate.swift */; };
+		AE04546125718A730043FE05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE04546025718A730043FE05 /* ViewController.swift */; };
+		AE04546425718A730043FE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE04546225718A730043FE05 /* Main.storyboard */; };
+		AE04546625718A750043FE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE04546525718A750043FE05 /* Assets.xcassets */; };
+		AE04546925718A750043FE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE04546725718A750043FE05 /* LaunchScreen.storyboard */; };
+		AE04546E25718A760043FE05 /* Marium_Assignment2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AE04546D25718A760043FE05 /* Marium_Assignment2 WatchKit App.app */; };
+		AE04547425718A760043FE05 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE04547225718A760043FE05 /* Interface.storyboard */; };
+		AE04547625718A770043FE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE04547525718A770043FE05 /* Assets.xcassets */; };
+		AE04547D25718A770043FE05 /* Marium_Assignment2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AE04547C25718A770043FE05 /* Marium_Assignment2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AE04548225718A770043FE05 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE04548125718A770043FE05 /* InterfaceController.swift */; };
+		AE04548425718A770043FE05 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE04548325718A770043FE05 /* ExtensionDelegate.swift */; };
+		AE04548625718A770043FE05 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE04548525718A770043FE05 /* NotificationController.swift */; };
+		AE04548825718A780043FE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE04548725718A780043FE05 /* Assets.xcassets */; };
+		AE04549E257194670043FE05 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE04549D257194670043FE05 /* ProgramViewController.swift */; };
+		AE0454A0257194960043FE05 /* ProgramTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE04549F257194960043FE05 /* ProgramTableViewCell.swift */; };
+		AE0454A2257194B40043FE05 /* ProgramObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0454A1257194B40043FE05 /* ProgramObject.swift */; };
+		AE0454A4257440E30043FE05 /* ProgRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0454A3257440E30043FE05 /* ProgRowController.swift */; };
+		AE0454A6257441090043FE05 /* ProgramInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0454A5257441090043FE05 /* ProgramInterfaceController.swift */; };
+		AE0454A7257471AF0043FE05 /* ProgramObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0454A1257194B40043FE05 /* ProgramObject.swift */; };
+		AE0454AB2575A9830043FE05 /* carBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0454AA2575A9830043FE05 /* carBG.jpg */; };
+		AE0454AD2575AAC00043FE05 /* btn blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0454AC2575AAC00043FE05 /* btn blue.png */; };
+		AE0454AF2575AC530043FE05 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0454AE2575AC530043FE05 /* TableTableViewController.swift */; };
+		AE0454B12575ACB80043FE05 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0454B02575ACB80043FE05 /* DetailsViewController.swift */; };
+		AE0454B32575ADAC0043FE05 /* MyDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0454B22575ADAC0043FE05 /* MyDataTableViewCell.swift */; };
+		AE0454B52575ADCA0043FE05 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0454B42575ADCA0043FE05 /* GetData.swift */; };
+		AE0454B82575B0860043FE05 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0454B72575B0860043FE05 /* 1.jpg */; };
+		AE0454BA2575B0920043FE05 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0454B92575B0920043FE05 /* 2.png */; };
+		AE0454BC2575B09A0043FE05 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0454BB2575B09A0043FE05 /* 3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE04546F25718A760043FE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE04545325718A730043FE05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE04546C25718A760043FE05;
+			remoteInfo = "Marium_Assignment2 WatchKit App";
+		};
+		AE04547E25718A770043FE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE04545325718A730043FE05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE04547B25718A770043FE05;
+			remoteInfo = "Marium_Assignment2 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE04549025718A780043FE05 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AE04547D25718A770043FE05 /* Marium_Assignment2 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE04549425718A780043FE05 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AE04546E25718A760043FE05 /* Marium_Assignment2 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE04545B25718A730043FE05 /* Marium_Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marium_Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE04545E25718A730043FE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE04546025718A730043FE05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE04546325718A730043FE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE04546525718A750043FE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE04546825718A750043FE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE04546A25718A750043FE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE04546D25718A760043FE05 /* Marium_Assignment2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marium_Assignment2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE04547325718A760043FE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AE04547525718A770043FE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE04547725718A770043FE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE04547C25718A770043FE05 /* Marium_Assignment2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Marium_Assignment2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE04548125718A770043FE05 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AE04548325718A770043FE05 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AE04548525718A770043FE05 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AE04548725718A780043FE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE04548925718A780043FE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE04548A25718A780043FE05 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AE04549D257194670043FE05 /* ProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
+		AE04549F257194960043FE05 /* ProgramTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramTableViewCell.swift; sourceTree = "<group>"; };
+		AE0454A1257194B40043FE05 /* ProgramObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramObject.swift; sourceTree = "<group>"; };
+		AE0454A3257440E30043FE05 /* ProgRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgRowController.swift; sourceTree = "<group>"; };
+		AE0454A5257441090043FE05 /* ProgramInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramInterfaceController.swift; sourceTree = "<group>"; };
+		AE0454AA2575A9830043FE05 /* carBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carBG.jpg; sourceTree = "<group>"; };
+		AE0454AC2575AAC00043FE05 /* btn blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn blue.png"; sourceTree = "<group>"; };
+		AE0454AE2575AC530043FE05 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
+		AE0454B02575ACB80043FE05 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		AE0454B22575ADAC0043FE05 /* MyDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyDataTableViewCell.swift; path = ../MyDataTableViewCell.swift; sourceTree = "<group>"; };
+		AE0454B42575ADCA0043FE05 /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GetData.swift; path = ../GetData.swift; sourceTree = "<group>"; };
+		AE0454B72575B0860043FE05 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		AE0454B92575B0920043FE05 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		AE0454BB2575B09A0043FE05 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE04545825718A730043FE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE04547925718A770043FE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE04545225718A730043FE05 = {
+			isa = PBXGroup;
+			children = (
+				AE04545D25718A730043FE05 /* Marium_Assignment2 */,
+				AE04547125718A760043FE05 /* Marium_Assignment2 WatchKit App */,
+				AE04548025718A770043FE05 /* Marium_Assignment2 WatchKit Extension */,
+				AE04545C25718A730043FE05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE04545C25718A730043FE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE04545B25718A730043FE05 /* Marium_Assignment2.app */,
+				AE04546D25718A760043FE05 /* Marium_Assignment2 WatchKit App.app */,
+				AE04547C25718A770043FE05 /* Marium_Assignment2 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE04545D25718A730043FE05 /* Marium_Assignment2 */ = {
+			isa = PBXGroup;
+			children = (
+				AE0454B62575ADD00043FE05 /* New Group */,
+				AE0454AC2575AAC00043FE05 /* btn blue.png */,
+				AE0454AA2575A9830043FE05 /* carBG.jpg */,
+				AE04549A25718ADD0043FE05 /* Special Classes */,
+				AE04549925718AD10043FE05 /* ViewControllers */,
+				AE04549825718AC70043FE05 /* StoryBoards */,
+				AE04546525718A750043FE05 /* Assets.xcassets */,
+				AE04546A25718A750043FE05 /* Info.plist */,
+			);
+			path = Marium_Assignment2;
+			sourceTree = "<group>";
+		};
+		AE04547125718A760043FE05 /* Marium_Assignment2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AE04547225718A760043FE05 /* Interface.storyboard */,
+				AE04547525718A770043FE05 /* Assets.xcassets */,
+				AE04547725718A770043FE05 /* Info.plist */,
+			);
+			path = "Marium_Assignment2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		AE04548025718A770043FE05 /* Marium_Assignment2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AE04549B25718B000043FE05 /* Special Classes */,
+				AE04548725718A780043FE05 /* Assets.xcassets */,
+				AE04548925718A780043FE05 /* Info.plist */,
+				AE04548A25718A780043FE05 /* PushNotificationPayload.apns */,
+			);
+			path = "Marium_Assignment2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		AE04549825718AC70043FE05 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				AE04546725718A750043FE05 /* LaunchScreen.storyboard */,
+				AE04546225718A730043FE05 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		AE04549925718AD10043FE05 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE04546025718A730043FE05 /* ViewController.swift */,
+				AE04549D257194670043FE05 /* ProgramViewController.swift */,
+				AE0454AE2575AC530043FE05 /* TableTableViewController.swift */,
+				AE0454B02575ACB80043FE05 /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE04549A25718ADD0043FE05 /* Special Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE0454B42575ADCA0043FE05 /* GetData.swift */,
+				AE0454B22575ADAC0043FE05 /* MyDataTableViewCell.swift */,
+				AE0454A1257194B40043FE05 /* ProgramObject.swift */,
+				AE04549F257194960043FE05 /* ProgramTableViewCell.swift */,
+				AE04545E25718A730043FE05 /* AppDelegate.swift */,
+			);
+			path = "Special Classes";
+			sourceTree = "<group>";
+		};
+		AE04549B25718B000043FE05 /* Special Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE0454A5257441090043FE05 /* ProgramInterfaceController.swift */,
+				AE04548525718A770043FE05 /* NotificationController.swift */,
+				AE04548325718A770043FE05 /* ExtensionDelegate.swift */,
+				AE04549C25718B0C0043FE05 /* Interface Controller */,
+				AE0454A3257440E30043FE05 /* ProgRowController.swift */,
+			);
+			path = "Special Classes";
+			sourceTree = "<group>";
+		};
+		AE04549C25718B0C0043FE05 /* Interface Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE04548125718A770043FE05 /* InterfaceController.swift */,
+			);
+			name = "Interface Controller";
+			sourceTree = "<group>";
+		};
+		AE0454B62575ADD00043FE05 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AE0454BB2575B09A0043FE05 /* 3.jpg */,
+				AE0454B92575B0920043FE05 /* 2.png */,
+				AE0454B72575B0860043FE05 /* 1.jpg */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE04545A25718A730043FE05 /* Marium_Assignment2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE04549525718A780043FE05 /* Build configuration list for PBXNativeTarget "Marium_Assignment2" */;
+			buildPhases = (
+				AE04545725718A730043FE05 /* Sources */,
+				AE04545825718A730043FE05 /* Frameworks */,
+				AE04545925718A730043FE05 /* Resources */,
+				AE04549425718A780043FE05 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE04547025718A760043FE05 /* PBXTargetDependency */,
+			);
+			name = Marium_Assignment2;
+			productName = Marium_Assignment2;
+			productReference = AE04545B25718A730043FE05 /* Marium_Assignment2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE04546C25718A760043FE05 /* Marium_Assignment2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE04549125718A780043FE05 /* Build configuration list for PBXNativeTarget "Marium_Assignment2 WatchKit App" */;
+			buildPhases = (
+				AE04546B25718A760043FE05 /* Resources */,
+				AE04549025718A780043FE05 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE04547F25718A770043FE05 /* PBXTargetDependency */,
+			);
+			name = "Marium_Assignment2 WatchKit App";
+			productName = "Marium_Assignment2 WatchKit App";
+			productReference = AE04546D25718A760043FE05 /* Marium_Assignment2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AE04547B25718A770043FE05 /* Marium_Assignment2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE04548D25718A780043FE05 /* Build configuration list for PBXNativeTarget "Marium_Assignment2 WatchKit Extension" */;
+			buildPhases = (
+				AE04547825718A770043FE05 /* Sources */,
+				AE04547925718A770043FE05 /* Frameworks */,
+				AE04547A25718A770043FE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marium_Assignment2 WatchKit Extension";
+			productName = "Marium_Assignment2 WatchKit Extension";
+			productReference = AE04547C25718A770043FE05 /* Marium_Assignment2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE04545325718A730043FE05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Xcode User";
+				TargetAttributes = {
+					AE04545A25718A730043FE05 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AE04546C25718A760043FE05 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AE04547B25718A770043FE05 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = AE04545625718A730043FE05 /* Build configuration list for PBXProject "Marium_Assignment2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE04545225718A730043FE05;
+			productRefGroup = AE04545C25718A730043FE05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE04545A25718A730043FE05 /* Marium_Assignment2 */,
+				AE04546C25718A760043FE05 /* Marium_Assignment2 WatchKit App */,
+				AE04547B25718A770043FE05 /* Marium_Assignment2 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE04545925718A730043FE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE04546925718A750043FE05 /* LaunchScreen.storyboard in Resources */,
+				AE04546625718A750043FE05 /* Assets.xcassets in Resources */,
+				AE0454BA2575B0920043FE05 /* 2.png in Resources */,
+				AE0454AD2575AAC00043FE05 /* btn blue.png in Resources */,
+				AE0454B82575B0860043FE05 /* 1.jpg in Resources */,
+				AE04546425718A730043FE05 /* Main.storyboard in Resources */,
+				AE0454AB2575A9830043FE05 /* carBG.jpg in Resources */,
+				AE0454BC2575B09A0043FE05 /* 3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE04546B25718A760043FE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE04547625718A770043FE05 /* Assets.xcassets in Resources */,
+				AE04547425718A760043FE05 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE04547A25718A770043FE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE04548825718A780043FE05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE04545725718A730043FE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0454A0257194960043FE05 /* ProgramTableViewCell.swift in Sources */,
+				AE04546125718A730043FE05 /* ViewController.swift in Sources */,
+				AE04545F25718A730043FE05 /* AppDelegate.swift in Sources */,
+				AE0454A2257194B40043FE05 /* ProgramObject.swift in Sources */,
+				AE0454B12575ACB80043FE05 /* DetailsViewController.swift in Sources */,
+				AE0454AF2575AC530043FE05 /* TableTableViewController.swift in Sources */,
+				AE04549E257194670043FE05 /* ProgramViewController.swift in Sources */,
+				AE0454B32575ADAC0043FE05 /* MyDataTableViewCell.swift in Sources */,
+				AE0454B52575ADCA0043FE05 /* GetData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE04547825718A770043FE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0454A7257471AF0043FE05 /* ProgramObject.swift in Sources */,
+				AE04548625718A770043FE05 /* NotificationController.swift in Sources */,
+				AE04548425718A770043FE05 /* ExtensionDelegate.swift in Sources */,
+				AE0454A4257440E30043FE05 /* ProgRowController.swift in Sources */,
+				AE0454A6257441090043FE05 /* ProgramInterfaceController.swift in Sources */,
+				AE04548225718A770043FE05 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE04547025718A760043FE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE04546C25718A760043FE05 /* Marium_Assignment2 WatchKit App */;
+			targetProxy = AE04546F25718A760043FE05 /* PBXContainerItemProxy */;
+		};
+		AE04547F25718A770043FE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE04547B25718A770043FE05 /* Marium_Assignment2 WatchKit Extension */;
+			targetProxy = AE04547E25718A770043FE05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE04546225718A730043FE05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE04546325718A730043FE05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE04546725718A750043FE05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE04546825718A750043FE05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AE04547225718A760043FE05 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE04547325718A760043FE05 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE04548B25718A780043FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE04548C25718A780043FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE04548E25718A780043FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Marium_Assignment2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prog39856.Marium-Assignment2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		AE04548F25718A780043FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Marium_Assignment2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prog39856.Marium-Assignment2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		AE04549225718A780043FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Marium_Assignment2_WatchKit_Extension;
+				INFOPLIST_FILE = "Marium_Assignment2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prog39856.Marium-Assignment2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		AE04549325718A780043FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Marium_Assignment2_WatchKit_Extension;
+				INFOPLIST_FILE = "Marium_Assignment2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prog39856.Marium-Assignment2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		AE04549625718A780043FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Marium_Assignment2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prog39856.Marium-Assignment2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE04549725718A780043FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Marium_Assignment2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prog39856.Marium-Assignment2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE04545625718A730043FE05 /* Build configuration list for PBXProject "Marium_Assignment2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE04548B25718A780043FE05 /* Debug */,
+				AE04548C25718A780043FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE04548D25718A780043FE05 /* Build configuration list for PBXNativeTarget "Marium_Assignment2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE04548E25718A780043FE05 /* Debug */,
+				AE04548F25718A780043FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE04549125718A780043FE05 /* Build configuration list for PBXNativeTarget "Marium_Assignment2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE04549225718A780043FE05 /* Debug */,
+				AE04549325718A780043FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE04549525718A780043FE05 /* Build configuration list for PBXNativeTarget "Marium_Assignment2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE04549625718A780043FE05 /* Debug */,
+				AE04549725718A780043FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE04545325718A730043FE05 /* Project object */;
+}

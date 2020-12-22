@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14490.70" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Marium_Assignment2_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="133" height="38" alignment="left" text="Car App" textAlignment="center" id="UYr-wZ-WTa"/>
+                        <button width="1" alignment="left" title="Let's Go" id="AGs-cd-8r2">
+                            <connections>
+                                <segue destination="UDg-t0-DXX" kind="modal" id="B7t-ZA-FsV"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="182" y="88"/>
+        </scene>
+        <!--Program Interface Controller-->
+        <scene sceneID="Pa6-mc-u8I">
+            <objects>
+                <controller id="UDg-t0-DXX" customClass="ProgramInterfaceController" customModule="Marium_Assignment2_WatchKit_Extension">
+                    <items>
+                        <label width="136" alignment="left" text="Car App" textAlignment="center" id="ANW-pA-MfF"/>
+                        <table alignment="left" id="Z3q-gC-0QO">
+                            <items>
+                                <tableRow id="7zz-hg-nv8" customClass="ProgRowController" customModule="Marium_Assignment2_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="124" alignment="left" id="6jO-xf-xsU">
+                                        <items>
+                                            <group width="134" height="112" alignment="left" layout="vertical" id="ILS-ro-DuM">
+                                                <items>
+                                                    <label alignment="left" text="Model" id="ndI-Z4-i11">
+                                                        <color key="textColor" red="0.23802784090000001" green="0.96841710810000003" blue="0.43523347379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </label>
+                                                    <label alignment="left" text="Year" id="fSJ-Ov-aLL">
+                                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                    <label alignment="left" text="Colour" id="R4h-Wz-gXq">
+                                                        <color key="textColor" red="0.90135604140000003" green="0.71906274560000005" blue="0.93763250109999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </label>
+                                                    <label alignment="left" text="Make" id="utj-XI-SBP"/>
+                                                    <label alignment="left" text="New/used" id="l0h-Zz-LML"/>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="lblColor" destination="R4h-Wz-gXq" id="YBY-sD-XAO"/>
+                                        <outlet property="lblMake" destination="utj-XI-SBP" id="OkH-YI-eFD"/>
+                                        <outlet property="lblModel" destination="ndI-Z4-i11" id="XNm-Yq-f9k"/>
+                                        <outlet property="lblYear" destination="fSJ-Ov-aLL" id="wIz-0w-kLa"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="progTable" destination="Z3q-gC-0QO" id="vaD-ra-jCN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="419" y="88"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Marium_Assignment2_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="Marium_Assignment2_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="345"/>
+        </scene>
+    </scenes>
+</document>
